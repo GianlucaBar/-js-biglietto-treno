@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(37, 41, 54);
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: rgb(161, 10, 10);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#prezzoBiglietto{
+    color: whitesmoke;
+}
+
+.ticket-block{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: black;
+}
