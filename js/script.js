@@ -21,9 +21,9 @@ var sconto40 = ( prezzoBase / 100 * 40 );
 // calcolo prezzo finale 
 
 if ( etàPasseggero < 18){
-     prezzoFinale = ( prezzoBase - sconto20 )
+     prezzoFinale = ( prezzoBase - sconto20 );
  } else if ( etàPasseggero > 65 ){
-     prezzoFinale = ( prezzoBase - sconto40 )
+     prezzoFinale = ( prezzoBase - sconto40 );
  }else{
      prezzoFinale = prezzoBase;
  }
